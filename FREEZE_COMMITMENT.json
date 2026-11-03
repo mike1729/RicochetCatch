@@ -1,0 +1,26 @@
+{
+  "format": "ricochet-freeze-commitment-v1",
+  "freeze_manifest": "runs/frozen-v2/manifest.json",
+  "sha256": "0e5a012c0f91e3901358603a341726b478240a0908aa2a1acd78b63a91fcef0a",
+  "implementation_revision": "62eb67af7336600a4cb88c5efd992bc99bb6a35a",
+  "supersedes": {
+    "manifest": "runs/frozen/manifest.json",
+    "sha256": "4247cdc076141710ba60a95f8c7f57052ce78a6c7c019e55b667781e765d3ec8"
+  },
+  "hidden_seed_commitment_reused_unchanged": true,
+  "game_prompt_unchanged": true,
+  "runtime_preflight": "pending",
+  "astra_generation": "not requested",
+  "hidden_test_evaluation": "not run",
+  "offline_evidence_sha256": {
+    "runs/review-offline-v2/OFFLINE_REVIEW.txt": "f2ece4222851dedc913995dc24d71dca1af6b2fdbcfcc56e92c1eaf2c674fd99",
+    "runs/review-offline-v2/current-final.inventory.json": "eaf16f9b470daaa99d2859878bea96e52df37d61e386d2a82dad456730aa4206",
+    "runs/review-offline-v2/bundled-model-catalog.json": "c9ffdfdc5699352ebf68977006358f1b3c38c12eb5f855d0bae9c66d6031bf89"
+  },
+  "tests": {
+    "passed": 235,
+    "output": "runs/development/tests-review-v2.txt",
+    "sha256": "3428708972b672fc99360cf11cd416a5d1a9f2909120a50a9f2c9574c4daa5b8"
+  },
+  "private_artifacts_not_committed": true
+}
