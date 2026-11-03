@@ -1,0 +1,7 @@
+{
+  "version": "0.1",
+  "spawn_probability": 0.45,
+  "bomb_probability": 0.25,
+  "velocity_probabilities": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+  "horizon": 256
+}

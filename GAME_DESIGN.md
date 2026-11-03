@@ -1,6 +1,6 @@
 # Ricochet Catch: game and policy specification
 
-Prepared 2026-11-03. Game version `0.1`, reviewed specification. An independent review simulation has passed the mechanics fixtures and baseline calibration with the constants below. Production implementation, neural-policy validation, and the Astra experiment are still pending. The experiment protocol is in [EXPERIMENT_PLAN.md](EXPERIMENT_PLAN.md).
+Prepared 2026-11-03. Game version `0.1`, reviewed specification. The production implementation passes the mechanics, neural-policy, parser, renderer, and evaluation tests, and reproduces the independent review calibration with the constants below. Runtime preflight and the Astra experiment remain pending. See [IMPLEMENTATION_REPORT.md](IMPLEMENTATION_REPORT.md) for validation evidence and [EXPERIMENT_PLAN.md](EXPERIMENT_PLAN.md) for the protocol.
 
 This is one game containing rewards, diagonal motion, wall reflections, and bombs. There are no color flips, inventory, levels, upgrades, hidden timers, or persistent policy memory. The experiment tests whether Astra can write weights that produce useful play; the task does not prescribe an internal policy algorithm or require explicit multi-step landing prediction.
 

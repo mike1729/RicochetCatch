@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ricochet-catch"
+version = "0.1.0"
+description = "Deterministic Ricochet Catch game and local weight-programming experiment"
+requires-python = ">=3.11,<3.15"
+dependencies = ["numpy==2.3.4", "jsonschema==4.25.1"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+
+[project.scripts]
+ricochet = "ricochet_catch.cli:main"
+ricochet-catch = "ricochet_catch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

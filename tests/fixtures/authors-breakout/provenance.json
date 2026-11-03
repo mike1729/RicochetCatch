@@ -1,0 +1,14 @@
+{
+  "attribution": "RikiyaT, Logs: LLMs can understand and write neural network weights",
+  "bytes": 10977,
+  "fixture": "Entire original event log, preserved byte-for-byte; no excerpts or transformations.",
+  "git_blob_sha1": "1c7c782995eb0ed4ecc3096f638d34974aa77455",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "purpose": "Regression evidence for the exact pre-turn Code Mode unavailable error-item notice; the notice alone does not prove runtime execution denial.",
+  "sha256": "39ab8479e5f2afac77688634ea3fc54bea6a1f0d41a59eeb97d39b5b65ea3270",
+  "source_commit": "4d09ba6d6a7e891dd8063974dfe81b3d78e3494f",
+  "source_path": "exp5_write_from_scratch/runs/breakout/reply/events.jsonl",
+  "source_repository": "https://github.com/RikiyaT/lm_understand-logs",
+  "source_url": "https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/4d09ba6d6a7e891dd8063974dfe81b3d78e3494f/exp5_write_from_scratch/runs/breakout/reply/events.jsonl"
+}

@@ -1,0 +1,5 @@
+{
+  "format": "tensor-assignments-v2",
+  "explanation": "Manual test artifact: an all-zero network always selects stay. This is not an Astra submission.",
+  "assignments": []
+}
